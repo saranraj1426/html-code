@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cardo', serif;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.menu {
+    display: inline-block;
+    padding:0px 40px;
+    
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 110px;
+}
+li, a, button  {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color:rgb(65, 65, 207);
+}  
+    
+nav ul li a:hover {
+  color: black;
+
+}
+.button {
+    padding: 6px 10px;
+    background-color: rgb(65, 65, 207);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.content1 {
+    text-align: center;
+    margin-top: 80px;
+}
+.heading1 {
+    font-size: 40px;
+    color: rgb(3, 3, 90);
+}
+.btn1 {
+    padding: 6px 10px;
+    background-color: rgb(65, 65, 207);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer
+}
+.content2 {
+    text-align: center;
+    margin-top: 80px;
+
+}
+.heading2 {
+
+    font-size: 30px;
+    color: rgb(3, 3, 90);
+}
+.content3 {
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+    padding: 20px 11%;
+    
+}
+
+.content4 {
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+    padding: 20px 5%;
+}
+.icon1 {
+    width: 35px;
+}
+.icon2{
+    width: 35px;
+}
+.heading4 {
+    float:right;
+    padding-right: 80px;
+    color:rgb(3, 3, 90);
+    font-weight: bold;
+}
+
+.heading5 {
+    float:right;
+    padding-right: 270px;
+    color:rgb(3, 3, 90);
+    font-weight: bold;
+}
+.heading6 {
+    margin-top:400px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(3, 3, 90);
+    text-align: center;
+}
+.btn2 {
+    float: left;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: rgb(50, 181, 241);
+    border: none;
+    border-radius: 10px;
+    color:black;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+
+
+.content5 {
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+    padding: 20px 11%;
+    
+}
+
+.content6 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    padding: 10px 1%;
+}
+.heading7 
+{
+    color:rgb(3, 3, 90) ;
+    font-weight: bold;
+    font-size: 30px;
+
+
+}
+.heading8
+{
+    color:rgb(3, 3, 90) ;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.btn3 {
+    float: left;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: rgb(187, 245, 160);
+    border: none;
+    border-radius: 10px;
+    color:black;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+.content7 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    padding: 20px 11%;
+    
+}
+
+.content8 {
+    width: 50%;
+    float: left;
+    padding: 20px 11%;
+    margin-top: 70px;
+}
+.heading9 
+{
+    color:rgb(3, 3, 90) ;
+    font-weight: bold;
+    font-size: 30px;
+
+
+}
+.heading10
+{
+    color:rgb(3, 3, 90) ;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.btn4 {
+    float: left;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: rgb(247, 160, 218);
+    border: none;
+    border-radius: 10px;
+    color:black;
+    font-weight: bold;
+    cursor: pointer
+
+}
+.content9 {
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+    padding: 20px 11%;
+    clear: both;
+    
+}
+
+.content10 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    padding: 10px 1%;
+    
+}
+.heading11
+{
+    color:rgb(3, 3, 90) ;
+    font-weight: bold;
+    font-size: 30px;
+
+
+}
+.heading12
+{
+    color:rgb(3, 3, 90) ;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container {
+    background-color: rgb(247, 234, 236);
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    clear: both;
+    box-shadow: 20px;
+}
+.testimonialheader{
+    text-align: center;
+    padding-top: 50px;
+    color:rgb(3, 3, 90) ;
+}
+.view-box {
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.qoutestart {
+    float: left;
+
+}
+.qouteend {
+    float:right;
+}
+.company1 {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.testimonialp {
+    margin-top: 50px;
+    text-align: center;
+}
+.user1{
+    clear: both;
+    margin-left: 100px;
+
+}
+.usercontent1 {
+    margin-right: 40px;
+    float: right;
+   
+}
+.userheading1 {
+    color: rgb(3, 3, 90);
+
+}
+.userparagraph1 {
+    margin-top: 10px;
+    
+    
+}
+.footerheading {
+    margin-top: 150x;
+    text-align: center;
+    background-color: rgb(247, 234, 236);
+    color:rgb(3, 3, 90) ;
+    clear: both;
+}
+.footerp {
+    font-size:20px;
+}
+.footerbutton {
+    margin-bottom: 50px;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: rgb(65, 65, 207);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer
+    
+
+}
+
+
+
+
+
+
+/* responsive */
+
+@media(max-width:991px){
+
+    
+
+}
+
+@media(max-width:767px){
+
+
+}
+  
+
+@media(max-width:575px){
+
+    .logo {
+        margin-right:50px;
+        width: 70px;
+    }
+    .li, a, button {
+        font-size: 12px;
+    }
+    .heading1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .heading2 {
+    font-size: 20px;
+    text-align: center;
+    }
+    .icon1 {
+        size: 20px;
+        margin-left:80px;
+    }
+    .content3 {
+        width: 100%;
+        text-align: center;
+    }
+    .heading4 {
+        font-size: 12px;
+    }
+    .content4 {
+        width: 100%;
+        margin-left: 30px;
+        text-align: center;
+        
+    }
+    .icon2 {
+        width: 20px;
+        margin-right: 150px;
+        
+    }
+    .heading5 {
+        text-align: center;
+        margin-left: 50px;
+        
+    }
+
+}
+
+
+    
+
+
+
+
+
